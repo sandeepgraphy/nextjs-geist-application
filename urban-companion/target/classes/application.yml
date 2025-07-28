@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/urban_companion?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/urban_companion
+
+server:
+  port: 8080
+
+jwt:
+  secret: "change-me-in-production"
+  expiration: 86400000 # 24h
+
+logging:
+  level:
+    org.springframework.security: DEBUG
