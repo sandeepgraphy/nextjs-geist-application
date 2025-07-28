@@ -1,0 +1,5 @@
+com/urban/model/entity/Booking$BookingStatus.class
+com/urban/dto/BookingRequest.class
+com/urban/repository/mysql/BookingRepository.class
+com/urban/model/entity/Booking$BookingBuilder.class
+com/urban/model/entity/Booking.class
